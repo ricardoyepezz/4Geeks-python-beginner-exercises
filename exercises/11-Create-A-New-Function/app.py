@@ -2,5 +2,8 @@ import random
 
 # your code here
 def generate_random():
-    print(random.randint(0, 10))
+    gen = random.randint(0, 9)
+    print(gen)
+    return gen
+
 
